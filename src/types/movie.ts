@@ -1,0 +1,42 @@
+export interface Movie {
+  id: number;
+  title: string;
+  overview: string;
+  poster_path: string;
+  backdrop_path: string;
+  release_date: string;
+  vote_average: number;
+  genre_ids: number[];
+}
+
+export interface Genre {
+  id: number;
+  name: string;
+}
+
+export const GENRES: Genre[] = [
+  { id: 28, name: "Acción" },
+  { id: 12, name: "Aventura" },
+  { id: 16, name: "Animación" },
+  { id: 35, name: "Comedia" },
+  { id: 80, name: "Crimen" },
+  { id: 99, name: "Documental" },
+  { id: 18, name: "Drama" },
+  { id: 10751, name: "Familia" },
+  { id: 14, name: "Fantasía" },
+  { id: 36, name: "Historia" },
+  { id: 27, name: "Terror" },
+  { id: 10402, name: "Música" },
+  { id: 9648, name: "Misterio" },
+  { id: 10749, name: "Romance" },
+  { id: 878, name: "Ciencia Ficción" },
+  { id: 53, name: "Suspense" },
+  { id: 10752, name: "Bélica" },
+  { id: 37, name: "Western" },
+];
+
+export const getGenreNames = (genreIds: number[]): string[] => {
+  return genreIds
+    .map((id) => GENRES.find((g) => g.id === id)?.name)
+    .filter(Boolean) as string[];
+};
