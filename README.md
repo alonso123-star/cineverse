@@ -16,4 +16,4 @@ Si deseas trabajar en este proyecto en tu propia computadora, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/alonso123-star/cineverse.git]
+   git clone https://github.com/alonso123-star/cineverse.git
