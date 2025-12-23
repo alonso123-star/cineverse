@@ -29,7 +29,7 @@ export const SearchBar = ({ onSearch, isLoading }: SearchBarProps) => {
           <Search className="absolute left-4 w-5 h-5 text-muted-foreground" />
           <Input
             type="text"
-            placeholder="Buscar películas..."
+            placeholder="Buscar..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="pl-12 pr-24 py-6 bg-transparent border-0 text-lg placeholder:text-muted-foreground/60 focus-visible:ring-0 focus-visible:ring-offset-0"
