@@ -1,19 +1,58 @@
 # 🎬 Cineverse
 
-Bienvenido a **Cineverse**, una aplicación moderna desarrollada para la gestión y visualización de contenido multimedia. Este proyecto ha sido creado utilizando tecnologías de vanguardia para ofrecer una experiencia fluida y rápida.
+🚀 **Demo en vivo:**  
+👉 https://cineverse-gamma-woad.vercel.app/
 
-## 🚀 Tecnologías utilizadas
-Este proyecto utiliza el siguiente stack tecnológico:
+Cineverse es una aplicación web moderna para **explorar y visualizar películas**, enfocada en una experiencia rápida, limpia y responsive.
 
-* **React**: Biblioteca principal para la interfaz de usuario.
-* **TypeScript**: Para un código más seguro y fácil de mantener.
-* **Vite**: Herramienta de construcción ultra rápida.
-* **Tailwind CSS**: Para un diseño moderno y adaptable (responsive).
-* **shadcn/ui**: Componentes de interfaz de alta calidad.
+---
 
-## 🛠️ Cómo ejecutar el proyecto localmente
-Si deseas trabajar en este proyecto en tu propia computadora, sigue estos pasos:
+## ✨ Funcionalidades
+- 🔍 Búsqueda de películas
+- 🎞️ Visualización de información detallada
+- 📱 Diseño responsive
+- ⚡ Carga rápida y experiencia fluida
+- ⭐ UI moderna y accesible
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/alonso123-star/cineverse.git
+---
+
+## 🧩 Tecnologías utilizadas
+- **React** – Interfaz de usuario
+- **TypeScript** – Tipado y mantenibilidad
+- **Vite** – Build tool rápida
+- **Tailwind CSS** – Estilos modernos
+- **shadcn/ui** – Componentes UI
+- **Vercel** – Despliegue
+
+---
+
+## 🛠️ Instalación y uso local
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/alonso123-star/cineverse.git
+```
+
+2. Entra al proyecto:
+```bash
+cd cineverse
+```
+
+3. Instala las dependencias:
+```bash
+npm install
+```
+
+4. Ejecuta el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+5. Abre la aplicación en tu navegador:
+```text
+http://localhost:8080
+
+
+
+
+
